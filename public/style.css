@@ -1,0 +1,348 @@
+body{
+ background-color: rgb(0, 0,33);
+}
+.navbar{
+   background-color:#10002b !important; 
+}
+.contain{
+    height: 100%;
+   
+}
+.body{
+    background-color: #240046 !important;
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.img{
+    background:none !important;
+    height: 25rem;
+  margin-right: 2rem;
+    border-radius: 160px;
+    box-shadow: #10002b;
+    opacity: 0.75;
+}
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.right{
+    margin-top: 10rem;
+    font-size: 3rem;
+    color: white;
+    margin-left: 2rem;
+}
+.left{
+    margin-top: 8rem;
+    margin-left: 20rem;
+}
+.purpul{
+    color: gold;
+}
+
+.secondSection{
+    margin-left: 50px;
+    color: white;
+  
+   
+}
+
+.skill{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.skill ul li:hover{
+color:goldenrod;
+
+}
+ ul li img{
+height: 30px !important;
+margin-left: 2px;
+
+}
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+.f-info-links a:hover{
+  text-decoration: underline;
+}
+.f-info-links{
+    width: 100%;
+    margin-top: 1rem;
+}
+.f-info-socials{
+    width: 100%;
+
+
+}
+
+
+.f-info-links,
+.f-info-socials{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.info { 
+    width: 100%;
+    display: flex;
+    text-align: center;
+    height: 8rem ;
+   background-color: #090303;
+    color: white; 
+   flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+
+  bottom: 0 !important;
+  
+}
+
+.thirdSection{
+margin-left: 2rem;
+    color: white;
+  
+   
+   
+}
+.container-fluid{
+    margin-left: 2rem;
+}
+.con-text i{
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+   
+    border-radius: 5rem;
+    color: rgb(241, 212, 52);
+    border: solid rgb(125, 238, 125) 5px;
+    
+
+}
+.contect{
+    display: flex;
+
+    justify-content: space-around;
+    margin-right: rem;
+}
+.con-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+   margin-bottom: 2rem;
+}
+.contact-input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+    margin-bottom: 2rem;
+    padding: 10rem ,10rem ,10rem,10rem;
+
+}
+.con-form textarea{
+    height: 10rem;
+    border-radius: 2rem;
+}
+.contact-input:focus{
+    border: 5px solid gold;
+}
+.contact-input::placeholder{
+    color: goldenrod;
+}
+.con-form button{
+    display: flex;
+    align-items: center;
+    padding: 15pxm, 30px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#ff994f,#fa6d86);
+    cursor: pointer;
+}
+
+.About{
+    color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  font-weight: bold;
+    margin: 10rem 10rem 10rem 10rem;
+    border: solid gold 2px;
+    padding: 5rem 5rem 5rem 5rem;
+border-radius: 20px 20px 20px 0px;
+background-image: url("https://img.freepik.com/premium-photo/man-sits-front-computer-with-laptop-icons-screen_1181564-4370.jpg?w=826");
+}
+.info a{
+    text-decoration: none;
+}
+.card{
+    width: 80rem;
+    margin: 5rem 16rem 22rem 8rem;
+    background-color: #10002b;
+    color: white;
+}
+.resume{
+    margin-left: 5rem;
+}
+.secondSection h1{
+    margin-left: 7rem;
+}
+.thirdSection h1{
+    margin-left: 7rem;
+}
+.info{
+    margin-top: 0%;
+}
+.navbar-nav a:hover{
+text-decoration: underline;
+color:  gold !important;
+}
+@media (max-width:410px) {
+    .firstSection{
+        flex-direction: column;
+    }
+    .left{
+        margin: 2rem 2rem 2rem 2rem;
+        
+    }
+    .img{
+        height: 15rem;
+        border-radius: 300rem;
+    }
+    .right span{
+        font-size: 2rem;
+        display: block;
+    }
+    .right h1{
+        font-size: 2rem;
+    }
+    .secondSection h1{
+        margin-left: 2rem;
+
+    }
+    .skill{
+        flex-direction: column;
+    }
+    .contect{
+        flex-direction: column;
+
+    }
+    .con-text{
+        margin: 0rem 0rem 5rem 2rem;
+    }
+    .thirdSection{
+        margin-left: 2rem;
+    }
+    .con-form input{
+        width: 100%;
+     
+    }
+    .con-form textarea{
+        width:100%;  
+       
+    }
+    .thirdSection{
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .con-form{
+        align-items: normal;
+        margin-right: 2rem;
+       
+    }
+    .thirdSection h1{
+        margin-left: 2rem;
+    }
+    .About{
+       width: 90%;
+       height: 50%;
+        margin: 3rem 2rem 15rem 2rem ;
+        font-size: 1rem;
+        content: inherit;
+        padding: 1rem 1rem 1rem 1rem;
+       
+    }
+   .card-body{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    content: inherit;
+   }
+   .card{
+    width: 90%;
+    height: 50%;
+ margin-left: 1rem;
+   }
+   
+    
+}
+@media (min-width:660px) and (max-width:1000px) {
+    .img{
+        display: none;
+    }
+    .right span{
+        font-size: 2rem;
+        margin-top: 0rem;
+    }
+    .firstSection{
+        margin-bottom: 2rem;
+    }
+    .contect{
+        flex-direction: column;
+    }
+    .con-text{
+        margin: 2rem 0 2rem 0;
+    }
+    .con-form{
+        margin: 2rem 0 2rem 0;
+    }
+    .thirdSection h1{
+        margin-left: 2rem;
+    }
+    .secondSection h1{
+        margin-left: 2rem;
+    }
+    .About{
+        width: 90%;
+        height: 50%;
+         margin: 3rem 2rem 15rem 2rem ;
+         font-size: 1rem;
+         content: inherit;
+         padding: 1rem 1rem 1rem 1rem;
+         background :none;
+         background-color:#1a102b;
+         color: white;
+     }
+     .card-body{
+        display: flex;
+        flex-wrap: wrap;
+     
+        content: inherit;
+       }
+       .card{
+        width: 90%;
+        height: 50%;
+     margin-left: 1rem;
+       }
+}
