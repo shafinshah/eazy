@@ -9,9 +9,8 @@ const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 dotenv.config({path:__dirname+'/.env'});
 
-/*const MONGO_URL = "mongodb://127.0.0.1:27017/portfolio";*/
-/*ATLASTDB_URL = "mongodb+srv://shafinshah22:yQzUtMjICqQPfsJE@cluster0.bcy8oj6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";*/
-const dbUrl = (process.env.ATLASTDB_URL);
+ATLASTDB_URL = "mongodb+srv://shafinshah22:yQzUtMjICqQPfsJE@cluster0.bcy8oj6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 
 main()
 .then(()=>{
@@ -22,7 +21,7 @@ main()
 })
 
 async function main() {
-    await mongoose.connect(dbUrl);
+    await mongoose.connect(ATLASTDB_URL);
 }
 
 
