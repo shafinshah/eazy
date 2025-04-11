@@ -9,9 +9,9 @@ const bodyParser = require("body-parser");
 const dotenv = require("dotenv");
 dotenv.config({path:__dirname+'/.env'});
 
-/*ATLASTDB_URL = "mongodb+srv://shafinshah22:yQzUtMjICqQPfsJE@cluster0.bcy8oj6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";*/
+ATLASTDB_URL = "mongodb+srv://shafinshah22:yQzUtMjICqQPfsJE@cluster0.bcy8oj6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-ATLASTDB_URL = process.env.ATLASTDB_URL;
+
 main()
 .then(()=>{
     console.log("connected to db");
